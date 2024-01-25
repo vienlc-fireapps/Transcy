@@ -1,0 +1,21 @@
+{
+    "name": "transcy/model",
+    "description": "Models of transcy",
+    "type": "php",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "VienLC",
+            "email": "vienlc@firegroup.io"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^8.1",
+    },
+    "autoload": {
+        "psr-4": {
+            "Transcy\\": "src/"
+        }
+    }
+}
